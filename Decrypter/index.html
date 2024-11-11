@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decrypt .magic File</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Drag & Drop Your .magic File to Decrypt</h1>
+    <div id="dropZone" ondrop="handleFileDrop(event)" ondragover="event.preventDefault()">
+        <p>Drop .magic file here</p>
+    </div>
+    <pre id="output"></pre>
+
+    <script src="decrypt.js"></script>
+</body>
+</html>
